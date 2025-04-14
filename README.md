@@ -8,7 +8,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
     body { font-family: 'Inter', sans-serif; }
-    .gradient-bg { background: linear-gradient(to right, #6366f1, #8b5cf6); }
+    .gradient-bg {
+      background: linear-gradient(to right, #6366f1, #8b5cf6);
+    }
+    .hero-bg {
+      background-image: url('https://images.unsplash.com/photo-1606813908982-93a3fef26f42?auto=format&fit=crop&w=1600&q=80');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
   </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
@@ -25,10 +33,12 @@
     </div>
   </header>
 
-  <section class="text-center py-20 gradient-bg text-white">
-    <h2 class="text-5xl font-extrabold mb-4">Welcome to H.U Store 🛍️</h2>
-    <p class="text-xl mb-6">Your one-stop shop for quality products at unbeatable prices</p>
-    <a href="#shop" class="bg-white text-indigo-600 font-bold px-8 py-3 rounded-full shadow-lg hover:bg-gray-100 transition">Start Shopping</a>
+  <section class="text-center py-32 text-white hero-bg">
+    <div class="bg-black bg-opacity-50 p-10 rounded-xl inline-block">
+      <h2 class="text-5xl font-extrabold mb-4">Welcome to H.U Store 🛍️</h2>
+      <p class="text-xl mb-6">Your one-stop shop for quality products at unbeatable prices</p>
+      <a href="#shop" class="bg-white text-indigo-600 font-bold px-8 py-3 rounded-full shadow-lg hover:bg-gray-100 transition">Start Shopping</a>
+    </div>
   </section>
 
   <section id="shop" class="max-w-7xl mx-auto py-20 px-4">
